@@ -6,7 +6,7 @@
 
 Canonicalizes a UTF-8 string.
 
-canonicalize-string converts a string to lowercase, removes diacritics, then removes homoglyphs.
+canonicalize-string converts a string to lowercase, removes diacritics, then removes homoglyphs including graphemes.
 
 ## Node Repository
 
