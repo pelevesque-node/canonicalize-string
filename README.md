@@ -10,7 +10,7 @@ canonicalize-string converts a string to lowercase, removes diacritics, then rem
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/canonicalize-string](https://www.npmjs.com/package/@pelevesque/canonicalize-string)
+https://www.npmjs.com/package/@pelevesque/canonicalize-string
 
 ## Installation
 
