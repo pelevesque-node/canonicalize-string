@@ -6,7 +6,8 @@
 
 Canonicalizes a UTF-8 string.
 
-canonicalize-string converts a string to lowercase, removes diacritics, then removes homoglyphs including graphemes.
+canonicalize-string converts a string to lowercase, removes diacritics, then
+removes homoglyphs including graphemes.
 
 ## Node Repository
 
@@ -30,6 +31,9 @@ https://www.npmjs.com/package/@pelevesque/canonicalize-string
 
 ```js
 const canonicalizeString = require('@pelevesque/canonicalize-string')
+```
+
+```js
 const string = 'AmwÉ'
 const result = canonicalizeString(string)
 // result === arnvve
