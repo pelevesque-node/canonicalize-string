@@ -34,7 +34,7 @@ const canonicalizeString = require('@pelevesque/canonicalize-string')
 ```
 
 ```js
-const string = 'AmwÉ'
-const result = canonicalizeString(string)
+const str = 'AmwÉ'
+const result = canonicalizeString(str)
 // result === arnvve
 ```
