@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "diacritics": "^1.3.0",
-    "unhomoglyph": "^1.0.2"
+    "unhomoglyph": "^1.0.3"
   }
 }
