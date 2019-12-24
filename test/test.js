@@ -15,7 +15,7 @@ describe('#canonicalizeString()', () => {
   it('should remove homoglyphs', () => {
     const string = 'mw'
     const result = canonicalizeString(string)
-    const expected = 'rnvv'
+    const expected = 'rnw'
     expect(result).to.equal(expected)
   })
 
@@ -36,7 +36,7 @@ describe('#canonicalizeString()', () => {
   it('should do all at once', () => {
     const string = 'ABCMWÉéÇŒÆœæ'
     const result = canonicalizeString(string)
-    const expected = 'abcrnvveecoeaeoeae'
+    const expected = 'abcrnweecoeaeoeae'
     expect(result).to.equal(expected)
   })
 })
