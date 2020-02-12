@@ -35,5 +35,5 @@ const canonicalizeString = require('@pelevesque/canonicalize-string')
 ```js
 const str = 'AmwÉ'
 const result = canonicalizeString(str)
-// result === arnvve
+// result === arnwe
 ```
