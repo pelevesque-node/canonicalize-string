@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pelevesque/canonicalize-string.git"
+    "url": "git+https://github.com/pelevesque-node/canonicalize-string.git"
   },
   "keywords": [
     "UTF-8",
@@ -55,12 +55,12 @@
     "homoglyph",
     "diacritic"
   ],
-  "author": "Pierre-Emmanuel Lévesque <pierre.e.levesque@gmail.com>",
+  "author": "Pierre-Emmanuel Lévesque <me@pelevesque.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pelevesque/canonicalize-string/issues"
+    "url": "https://github.com/pelevesque-node/canonicalize-string/issues"
   },
-  "homepage": "https://github.com/pelevesque/canonicalize-string#readme",
+  "homepage": "https://github.com/pelevesque-node/canonicalize-string#readme",
   "directories": {
     "test": "test"
   },
